@@ -22,6 +22,9 @@
 }
 
 /* *** main *** */
+main    {
+    background-color: #0086ff;
+}
 .clearfix::after {
     content: "";
     clear: both;
@@ -41,7 +44,8 @@
 }
 
 .main-content {
-    width: 60%;
+    width: 58%;
+    margin: 0 1%;
 }
 
 
@@ -61,5 +65,4 @@
 .debug .widget {
     background-color: #abcfe7;
     height: 300px;
-    border: 2px solid blue;
 }

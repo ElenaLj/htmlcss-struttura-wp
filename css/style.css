@@ -22,11 +22,44 @@
 }
 
 /* *** main *** */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
+.main-heading {
+    width: 100%;
+}
+
+.sidebar, .widget {
+    width: 20%;
+}
+
+.left {
+    float: left;
+}
+
+.main-content {
+    width: 60%;
+}
 
 
 /* *** debug *** */
 .jumbotron.debug {
     height: 400px;
     background-color: #e1d67a;
+}
+
+.debug .main-heading {
+    background-color: #abcfe7;
+    height: 100px;
+}
+
+.debug .left, 
+.debug .main-content, 
+.debug .widget {
+    background-color: #abcfe7;
+    height: 300px;
+    border: 2px solid blue;
 }

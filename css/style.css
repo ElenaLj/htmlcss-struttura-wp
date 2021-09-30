@@ -1,4 +1,4 @@
-/* ***commons*** */
+/* *** commons *** */
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +10,19 @@
     margin: 0 auto;
 }
 
-/* ***header*** */
+/* *** header *** */
 .page-header {
     width: 100%;
     height: 100px;
     background-color: #e579e6;
+}
+
+.jumbotron {
+    width: 100%;
+}
+
+/* *** debug *** */
+.jumbotron.debug {
+    height: 400px;
+    background-color: #e1d67a;
 }

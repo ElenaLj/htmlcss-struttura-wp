@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -21,9 +21,15 @@
     width: 100%;
 }
 
+.margin {
+    margin-bottom: 20px;
+}
+
 /* *** main *** */
 main    {
     background-color: #0086ff;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 .clearfix::after {
     content: "";
@@ -48,6 +54,10 @@ main    {
     margin: 0 1%;
 }
 
+/* *** footer *** */
+.footer {
+    height: 50px;
+}
 
 /* *** debug *** */
 .jumbotron.debug {
@@ -65,4 +75,8 @@ main    {
 .debug .widget {
     background-color: #abcfe7;
     height: 300px;
+}
+
+.debug .footer {
+    background-color: #8801fe;    ;
 }

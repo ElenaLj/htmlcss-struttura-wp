@@ -63,7 +63,7 @@ main    {
 }
 
 /* *** debug *** */
-.jumbotron.debug {
+.debug .jumbotron {
     height: 500px;
     background-color: #e1d67a;
 }
